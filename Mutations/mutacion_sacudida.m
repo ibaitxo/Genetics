@@ -1,4 +1,4 @@
-function [elemento,pto1,pto2] = mutacion_sacudida(elemento)
+function [elemento] = mutacion_sacudida(elemento)
     %Coger dos puntos random de 1 a size(elemento)
     pto1 = randi(length(elemento));
     pto2 = randi(length(elemento));

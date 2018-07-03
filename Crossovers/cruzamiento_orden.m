@@ -5,8 +5,8 @@ function [h1,h2] = cruzamiento_orden(p1,p2)
     h2 = zeros(size(p2));
 
     %Coger dos puntos random de 1 a size(p)
-    pto1 = randi(length(p1));
-    pto2 = randi(length(p1));
+    pto1 = 4;%randi(length(p1));
+    pto2 = 7;%randi(length(p1));
     
     %Ordenamos los puntos aleatorios por si pto1 > pto2
     aux = sort([pto1,pto2]);

@@ -1,4 +1,4 @@
-function [elemento,pto1,pto2,segmento,invert] = mutacion_inversion(elemento)
+function [elemento] = mutacion_inversion(elemento)
 
     %Coger dos puntos random de 1 a size(elemento)
     pto1 = randi(length(elemento));
